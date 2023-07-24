@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.info {
+    padding-bottom: 5px;
+    display: flex;
+    }
+
+.text-info {
+    margin-left: 20px;
+}
+.info img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    /* margin-left: 225px ; */
+    width: 300px;
+    }
+
+.text-info h1 {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.text-info h2 {
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.text-info p, a {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+.card h2 {
+    padding: 10px;
+    }
+
+.hobbi ul {
+    padding-left: 40px;
+}
+
+.table table {
+    margin-left: 20px;
+}
+
+.svyz form {
+    margin-left: 20px;
+    }    
+
+
+.form-group label {
+    display: block;     
+}
+
+@media (max-width: 650px) {
+    .container {
+        margin: 10px;
+    }
+    .info {
+        display: block;
+    }
+    .img {
+        display: block;
+        margin: 20px auto;
+    }    
+    .table table {
+        width: 400px;
+    }
+}

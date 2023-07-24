@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    }
+body {
+    background: #eee;
+    color: #000;
+}
+.text-info h1 {
+    font-weight: 900;
+}
+.text-info p {
+    font-style: italic;
+}
+
+a {
+    color: violet;
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: darkcyan;
+}
+
+.table table {
+    font-size: 14px;
+    background: darkcyan;
+    color: #fff; 
+    border-radius: 15px;
+    padding: 10px;      
+}
+
+.hobbi {
+    border: 2px solid lemonchiffon;
+    background: lemonchiffon;
+    border-radius: 15px;
+    border-bottom-width: 15px;   
+    }
+
+.table {
+    border: 2px solid peachpuff;
+    background: peachpuff;
+    border-radius: 15px;
+    border-bottom-width: 15px; 
+    }
+
+.svyz {
+    border: 2px solid powderblue;
+    background: powderblue;
+    border-radius: 15px;
+    border-bottom-width: 15px; 
+    }
+
+.text-info h2 {
+    background: pink;
+    border-left: 6px solid darkmagenta;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn {
+    background: darkcyan;
+    padding: 10px 25px;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: peachpuff;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: square;
+    
+}
+
+.list li {
+    margin-bottom: 8px;    
+}
+
+.list1 li {
+    margin-top: 8px; 
+}
+
+.table {
+    width: 100%;    
+}
+
+.table table {
+    width: 500px;    
+}
+
+
+.table th {
+    text-align: center;
+    padding-bottom: 10px;
+    border: 3px solid #eee;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+    border: 2px solid #eee;
+}
+
+.table td:hover {
+    background: gray;
+}
